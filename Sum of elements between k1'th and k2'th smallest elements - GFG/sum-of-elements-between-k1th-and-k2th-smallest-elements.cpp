@@ -26,7 +26,7 @@ class Solution{
         }
         int y=p.top();
         
-        long long sum=0;
+        int sum=0;
         for(int i=0; i<N; i++){
             if(A[i]>x && A[i]<y){
                 sum+=A[i];
