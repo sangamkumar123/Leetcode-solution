@@ -11,13 +11,11 @@ class Solution {
             return 0;
         }
         int k=0;
-        for(int i=1; i<N/2; i++){
-            if(i*i < N){
+        for(int i=1; i*i<N; i++){
+            
                 k++;
-            }
-            else{
-                break;
-            }
+            
+           
         }
         return k;
     }
