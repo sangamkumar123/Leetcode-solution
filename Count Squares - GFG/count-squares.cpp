@@ -7,10 +7,10 @@ class Solution {
   public:
     int countSquares(int N) {
         // code here
-        if(N==1){
-            return 0;
-        }
-        int k=0;
+        // if(N==1){
+        //     return 0;
+        // }
+         int k=0;
         for(int i=1; i*i<N; i++){
             
                 k++;
