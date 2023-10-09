@@ -26,7 +26,7 @@ class Solution{
             else if(a[i] == ele){
                 count ++;
             }
-            else {
+            else if(a[i] != ele) {
                 count --;
             }
         }
